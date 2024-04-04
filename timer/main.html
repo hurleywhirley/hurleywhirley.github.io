@@ -18,17 +18,21 @@
 </head>
 
 <body>
-    <h1>Timer</h1>
-    <button id="startButton">Start</button>
+    <h1 id="text">Timer</h1>
+    <button id="button" onclick="start()">Start</button>
 
     <script>
-        document.getElementById('startButton').addEventListener('click', () => {
-            setTimeout(() => {
-                const audio = new Audio('chime.mp3');
-                audio.play();
-            }, 2000); // 2 seconds
-        });
-    </script>
-</body>
 
+    function start() {
+        const button = document.getElementById('button');
+        button.disabled = true;
+
+        timer();
+    }
+
+    </script>
+
+    <script src="timer.js"></script>
+
+</body>
 </html>
