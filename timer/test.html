@@ -20,6 +20,7 @@
 </head>
 <body>
     <button onclick="sendNotification()">Send Notification</button>
+    <audio id="notificationSound" src="chime.mp3"></audio>
     <script>
         function sendNotification() {
             if ('Notification' in window) {
@@ -28,9 +29,15 @@
                         new Notification('Notification Title', {
                             body: 'Notification Body'
                         });
+                        playNotificationSound();
                     }
                 });
             }
+        }
+
+        function playNotificationSound() {
+            var audio = document.getElementById('notificationSound');
+            audio.play();
         }
     </script>
 </body>
