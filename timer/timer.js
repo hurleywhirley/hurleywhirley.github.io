@@ -65,223 +65,163 @@ text.textContent = 'test 0';
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
-text.textContent = 'test 1';
+text.textContent = 'Heel Cord Strech (right)';
 }, 20000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
-text.textContent = 'test 2';
-}, 22000);
-
-setTimeout(() => {
-audio.currentTime = 0;
-audio.play();
-text.textContent = 'test 3';
-}, 24000);
-
-setTimeout(() => {
-audio.currentTime = 0;
-audio.play();
-text.textContent = 'test 4';
-}, 26000);
-
-setTimeout(() => {
-audio.currentTime = 0;
-audio.play();
-text.textContent = 'test 5';
-}, 28000);
-
-setTimeout(() => {
-audio.currentTime = 0;
-audio.play();
-text.textContent = 'test 6';
-}, 30000);
-
-setTimeout(() => {
-audio.currentTime = 0;
-audio.play();
-text.textContent = 'test 7';
-}, 32000);
-
-setTimeout(() => {
-audio.currentTime = 0;
-audio.play();
-text.textContent = 'test 8';
-}, 34000);
-
-setTimeout(() => {
-audio.currentTime = 0;
-audio.play();
-text.textContent = 'test 9';
-}, 36000);
-
-setTimeout(() => {
-audio.currentTime = 0;
-audio.play();
-text.textContent = 'test 0';
-}, 38000);
+text.textContent = 'Heel Cord Strech (left)';
+}, 50000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Heel Cord Strech (right)';
-}, 40000);
+}, 80000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Heel Cord Strech (left)';
-}, 70000);
-
-setTimeout(() => {
-audio.currentTime = 0;
-audio.play();
-text.textContent = 'Heel Cord Strech (right)';
-}, 100000);
-
-setTimeout(() => {
-audio.currentTime = 0;
-audio.play();
-text.textContent = 'Heel Cord Strech (left)';
-}, 130000);
+}, 110000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Standing Quadriceps Stretch (right)';
-}, 160000);
+}, 140000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Standing Quadriceps Stretch (left)';
-}, 190000);
+}, 170000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Standing Quadriceps Stretch (right)';
-}, 220000);
+}, 200000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Standing Quadriceps Stretch (left)';
-}, 250000);
+}, 230000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'transition';
-}, 280000);
+}, 260000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Supine Hamstring Stretch (right)';
-}, 290000);
+}, 270000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Supine Hamstring Stretch (left)';
-}, 320000);
+}, 300000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Supine Hamstring Stretch (right)';
-}, 350000);
+}, 330000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Supine Hamstring Stretch (left)';
-}, 380000);
+}, 360000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Bridge';
-}, 410000);
+}, 390000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Bird Dog';
-}, 530000);
+}, 510000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'transition';
-}, 630000);
+}, 610000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Squats';
-}, 640000);
+}, 620000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Calf Raises (right)';
-}, 710000);
+}, 690000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Calf Raises (left)';
-}, 760000);
+}, 740000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'transition';
-}, 810000);
+}, 790000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Leg Extensions';
-}, 830000);
+}, 810000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'transition';
-}, 980000);
+}, 960000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Straight-Leg Raises (right)';
-}, 995000);
+}, 975000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Straight-Leg Raises (left)';
-}, 1065000);
+}, 1045000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'transition';
-}, 1135000);
+}, 1115000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Straight-Leg Raises (prone)';
-}, 1140000);
+}, 1120000);
 
 setTimeout(() => {
 audio.currentTime = 0;
 audio.play();
 text.textContent = 'Done';
-}, 1240000);
+}, 1220000);
 
 }
