@@ -1,4 +1,12 @@
 function timer() {
+	Notification.requestPermission().then(function (result) {
+	                if (result === 'granted') {
+	                    new Notification('Notification Title', {
+	                        body: 'Notification Body'
+	                    });
+	                }
+	            }); 
+
 const audio = new Audio('chime.mp3');
 const text = document.getElementById('text');
 
