@@ -23,6 +23,13 @@
 
     <script>
 
+    const button = document.querySelector('button')
+      button.addEventListener("click", ()=> {
+      Notification.requestPermission().then(permission => {
+        alert(permission)
+      })
+    })
+      
     function start() {
         const button = document.getElementById('button');
         button.disabled = true;
